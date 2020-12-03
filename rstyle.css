@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+.list ul{
+    background-color: #5361ff;
+    height: auto;   
+}
+.list li a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    
+}
+.list li:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list ul li a{
+    color: white;
+}
+article{
+    background-color: #5361ff;
+    width: auto;
+    height: 500px;
+    text-align: centre ;
+}
+
+.image1{
+    position: absolute;
+    width: 680px;
+    height: 500px;
+    margin-left: 600px;
+}
+.para1{
+    align-self: flex-end;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 200px;
+    color: white;
+    line-height: .8;   
+}
+
+.p{
+    font-size: 25px;
+    text-decoration: underline;   
+}
+    
+main{
+    text-align: center;
+    margin-top: 30px;
+}
+.img img{
+    width: 150px;
+    height: auto;
+    margin: 30px 30px 0 30px;
+}
+.img img:hover{
+    transform: scale(1.2);
+}
+
+
+.footer{
+    background-color: rgb(112, 111, 111);
+    text-align: center;
+    color: black;
+}
+.social li a img{
+    width: 30px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+}
+.social li a img:hover{
+    transform: scale(1.5);
+}
+
+
+.footer{
+    background-color: #5366ff;
+    text-align: center;
+    color: white;
+}
+.social li a img{
+    width: 30px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+}
+.social li a img:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    background-color: #5366ff;
+    margin-top: 30px;
+}
+
+.footer a{
+    color:white;
+}
+
+.footer a:hover{
+    color: black;
+}
+
+.social{
+    text-align: center;
+    list-style:none;  
+}
+span ul li{
+    display: inline-flex;
+    margin: auto;
+}
+#thanks{
+    font-size: 15px;
+    color: white;
+}
+#mobile{
+    font-size: 15px;
+    color: white;    
+}
+#email{
+    font-size: 15px;
+    color: white;
+}
+footer div{
+    text-align: center;
+}
+
+@media only screen and (max-width: 880px)
+{
+    .list ul{
+        display: grid;
+        text-align: center;
+        padding-left: 0;
+        margin-left: -21px;
+    }
+    .image1{
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        margin-left: 200px;
+        margin-top: 150px;
+    }
+    .para1{
+        align-self: flex-end;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 100px;
+        color: white;
+        line-height: .8;   
+    }
+    
+    .skill h1{
+        
+        margin-top: 200px;
+    }   
+    article{
+        height: 400px;
+    } 
