@@ -184,15 +184,15 @@ footer div{
     .image1{
         position: absolute;
         width: 280px;
-        height: 250px;
+        height: 270px;
         margin-left: 20px;
-        margin-top: 150px;
+        margin-top: 130px;
     }
     .para1{
         align-self: flex-end;
         margin-left: 20px;
         margin-top: 10px;
-        font-size: 80px;
+        font-size: 100px;
         color: white;
         line-height: .8;   
     }
