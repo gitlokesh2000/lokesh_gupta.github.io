@@ -155,16 +155,16 @@ footer div{
     }
     .image1{
         position: absolute;
-        width: 300px;
+        width: 280px;
         height: 250px;
-        margin-left: 200px;
+        margin-left: 20px;
         margin-top: 150px;
     }
     .para1{
         align-self: flex-end;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 10px;
-        font-size: 100px;
+        font-size: 80px;
         color: white;
         line-height: .8;   
     }

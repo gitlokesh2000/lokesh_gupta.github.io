@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+   
 }
 .list ul{
     background-color: #5366ff;
-    height: auto;   
+    height: auto;  
+    margin-top: 0px; 
 }
 .list li a:hover{
     text-decoration: none;
@@ -131,4 +133,22 @@ footer div{
         padding-left: 0;
         margin-left: -21px;
     }
+    .academic ul{
+        text-align: left;
+        margin: 0 20px 0 10px;
+    }
+    
+    .lang ul{
+        text-align: left;
+        margin: 0 20px 0 10px;
+    }
+    .skill1 ul{
+        text-align: left;
+        margin: 0 20px 0 10px;
+    }
+    .per ul{
+        text-align: left;
+        margin: 0 20px 0 10px;
+    }
+    
 }

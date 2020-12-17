@@ -136,10 +136,10 @@ footer div{
         margin-left: -21px;
     }
     .images img{
-        width: 300px;
+        width: 250px;
         height: auto;
-        margin: 40px;
-        border: 5px solid darkcyan;
+        margin: 20px;
+        border: 3px solid #5366ff;
         border-radius: 20px;
     }
 }
